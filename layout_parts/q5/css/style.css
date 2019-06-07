@@ -1,5 +1,133 @@
 @charset "UTF-8";
 
+clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 /* 回答はここに書いてね */
+.content-box {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.common-box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.box1 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+	left: 200px;
+	bottom: 160px;
+  background-color: #ffefde;
+	z-index: 9;
+}
+
+.box1 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+	left: 200px;
+	bottom: 160px;
+  background-color: #ffefde;
+	z-index: 1;
+
+}
+.box2 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  bottom: 480px;
+  left: 280px;
+  background-color: #7084de;
+	z-index: 2;
+}
+
+.box3 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  bottom: 500px;
+  left: 360px;
+  background-color: #d0ecea;
+	z-index: 3;
+}
+
+.box4 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+	left: 280px;
+	bottom: 120px;
+  background-color: #8b7a5e;
+	z-index: 4;
+}
+
+.box5 {
+  text-align: center;
+  line-height: 100px;
+	position: relative;
+	left: 200px;
+	top: 260px;
+  background-color: #9fd6d2;
+	z-index: 5;
+}
+
+.box6 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  bottom: 220px;
+	left: 120px;
+  background-color: #fffee4;
+	z-index: 6;
+}
+
+.box7 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  bottom: 100px;
+  left: 40px;
+  background-color: #deae70;
+	z-index: 7;
+
+}
+.box8 {
+  text-align: center;
+  line-height: 100px;
+  position: relative;
+  top: 120px;
+  left: 120px;
+  background-color: #de70cf;
+	z-index: 8;
+}
+
+.box8::after {
+position: absolute;
+top: 0;
+right: 0;
+width: 20px;
+height: 20px;
+background-color: #ffefd3;
+content: "";
+}
+
+.box9 {
+	text-align: center;
+  line-height: 100px;
+	background-color: #2b69a3;
+	position: relative;
+	bottom: 980px;
+	right: 380px;
+}
 
 /* 回答はここに書いてね */

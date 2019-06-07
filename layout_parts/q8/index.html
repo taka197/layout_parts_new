@@ -32,26 +32,25 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
-          </div>
+                <div class="btn-common-small">common</div>
+                <div class="btn-error-small">error</div>
+                <div class="btn-disabled-small">disabled</div>
+                <div class="btn-shadow-small">shadow</div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+              <div class="btn-common-middle">common</div>
+              <div class="btn-error-middle">error</div>
+              <div class="btn-disabled-middle">disabled</div>
+              <div class="btn-shadow-middle">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+              <div class="btn-common-large">common</div>
+              <div class="btn-error-large">error</div>
+              <div class="btn-disabled-large">disabled</div>
+              <div class="btn-shadow-large">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +98,59 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <div class="form-background">
+              <h1 class="title">From Exercise</h1><div class="border"></div>
+                <div class="main">
+                  <div class="form">
+                    <ul>
+                      <li class="name-title">
+                        <label for="name">名前<span class="asta">*</span></label>
+                        <div class="common-form">
+                        <input class="form-common" type="text" name="name">
+                        </div>
+                      </li>
+                      <li class="sex-title">
+                        <p class="common-text">性別</p>
+                        <div class="common-form">
+                        <label><input type="radio" name="sex" value="male">男性</label>
+                        <label><input type="radio" name="sex" value="femele">女性</label>
+                        </div>
+                      </li>
+
+                      <li class="select-main">
+                        <p class="from-title">出身</p>
+                        <div class="common-form">
+                        <select name="from" class="from">
+                          <option>東京</option>
+                          <option>埼玉</option>
+                          <option>神奈川</option>
+                          <option>千葉</option>
+                        </select>
+                        </div>
+                      </li>
+
+                      <li class="email">
+                        <p class="">Eメール<span class="asta">*</span><p>
+                        <div class="common-form">
+                        <input class="form-common" type="email" name="email" placeholder="ex) hoge@gmail.com">
+                        </div>
+                      </li>
+                      <li class="phone-number">
+                        <p class="">電話番号<p>
+                        <div class="common-form">
+                        <input class="form-common" type="text" name="phonenumber" placeholder="ex) 08012345678">
+                        </div>
+                      </li>
+                    </ul>
+                      <label class="checkbox-label"><input type="checkbox">20歳以上です</label>
+                      <input class="button" type="submit" value="送信" class="submit">
+                  </div>
+                  <div class="text-box">
+                    <textarea type="text" placeholder="何かあれば入力してください"></textarea>
+                  </div>
+                </div>
+              </div>
+             </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

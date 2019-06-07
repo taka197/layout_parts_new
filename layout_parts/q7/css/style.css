@@ -1,5 +1,141 @@
 @charset "UTF-8";
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 /* 回答はここに書いてね */
+
+.content {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #ECF1F2;
+}
+
+.left {
+  margin 0;
+  padding: 10px;
+  width: 225px;
+  font-size: 16px;
+  float: left;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.right {
+  padding: 10px;
+  font-size: 16px;
+  width: 225px;
+  float: right;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.content-table {
+  display: table;
+  font-size: 16px;
+}
+
+.table-left {
+  display: table-cell;
+  padding-right: 50px;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.table-right {
+  display: table-cell;
+  width: 205px;
+  vertical-align: middle;
+}
+
+.inline-block-content {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  width: 500px;
+  font-size: 16px;
+  background-color: #ECF1F2;
+}
+
+.inlineblock-left {
+  margin-right: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  width: 205px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.inlineblock-right {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  width: 205px;
+  font-size: 16px;
+  background-color: white;
+}
+
+
+
+.flex {
+  padding: 10px;
+  width: 205px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #ECF1F2;
+  clear: both;
+}
+
+/*.inlineblock-margin-content {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  width: 1000px;
+  height: 150px;
+  font-size: 16px;
+  background-color: #ECF1F2;
+  clear: both;*/
+
+  .margin-content {
+    margin: auto;
+    padding: 20px;
+    width: auto;
+    font-size: 16px;
+    background-color: #ECF1F2;
+  }
+
+  .margin-left {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    width: 270px;
+    font-size: 16px;
+    background-color: white;
+    margin-right: 20px;
+  }
+
+  .margin-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    margin-left: 40px;
+  }
+
 
 /* 回答はここに書いてね */

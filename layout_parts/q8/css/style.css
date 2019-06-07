@@ -2,4 +2,333 @@
 
 /* 回答はここに書いてね */
 
+.button {
+  display: inline-block;
+  text-align: center;
+}
+
+.small {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 3px;
+
+}
+
+
+.middole {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.large {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  font-size: px;
+  border-radius: 3px;
+
+}
+
+.common {
+  color: white;
+  background-color: #00bcd4;
+}
+
+.error {
+  color: white;
+  background-color: #ff4081;
+}
+
+.disabled {
+  color: white;
+  background-color: #e5e5e5;
+}
+.shadown {
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+
+.btn-common-small {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #00bcd4;
+  color: white;
+}
+
+.btn-error-small {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  color: white;
+  background-color: #ff4081;
+}
+
+.btn-disabled-small {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  color: white;
+  background-color: #e5e5e5;
+}
+
+.btn-shadow-small {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.btn-common-middle {
+  margin-left: 10px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #00bcd4;
+  display: inline-block;
+  color: white;
+
+}
+.btn-error-middle {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-size: 20px;
+  border-radius: 7px;
+  color: white;
+  background-color: #ff4081;
+
+}
+.btn-disabled-middle {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-size: 20px;
+  border-radius: 7px;
+  color: white;
+  background-color: #e5e5e5;
+
+}
+
+.btn-shadow-middle {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 20px;
+  line-height: 32px;
+  font-size: 20px;
+  border-radius: 7px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+}
+
+.btn-common-large {
+  margin-left: 10px;
+  padding: 0 25px;
+  line-height: 38px;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #00bcd4;
+  display: inline-block;
+  color: white;
+}
+.btn-error-large {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 25px;
+  line-height: 38px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: white;
+  background-color: #ff4081;
+
+
+}
+.btn-disabled-large {
+    display: inline-block;
+  margin-left: 10px;
+  padding: 0 25px;
+  line-height: 38px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: white;
+  background-color: #e5e5e5;
+
+}
+.btn-shadow-large {
+    display: inline-block;
+  margin-left: 10px;
+  padding: 0 25px;
+  line-height: 38px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+
+}
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
+.form-background {
+  margin: 0 auto;
+  width: 700px;
+  height: 350px;
+  padding: 15px;
+  background-color: #ECF1F2;
+}
+
+ul li {
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+
+
+.title {
+  position: relative;
+  right: 260px;
+}
+
+.border {
+  width: 500px;
+  border: 0.5px solid #C0C0C0;
+  position: relative;
+  left: 200px;
+  bottom: 15px;
+}
+
+.main {
+  position: relative;
+  top: 5px;
+}
+
+.form {
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+.common-text {
+  position: relative;
+}
+
+.common-form {
+  position: relative;
+  bottom: 20px;
+  left: 90px;
+}
+
+.form-common {
+  border: none;
+  border-radius: 3px;
+  width: 178px;
+  height: 23px;
+
+}
+
+.select-main {
+
+}
+
+.from {
+  border: none;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  width: 180px;
+  height: 25px;
+  padding: 0 3px;
+  background-color: white;
+}
+
+.select-main::after {
+    display: block;
+    position: relative;
+    left: 250px;
+    width: 8px;
+    height: 8px;
+    bottom: 40px;
+    border-right: 2px solid #222;
+    border-bottom: 2px solid #222;
+    transform: rotate(45deg);
+    content: "";
+    pointer-events: none;
+}
+
+.asta {
+  color: red;
+}
+
+.checkbox-label {
+  position: relative;
+  left: 150px;
+}
+
+.checkbox {
+  border: none;
+  padding: 5px 5px;
+}
+
+.checkbox-text {
+  font-size: 18px;
+  position: relative;
+
+}
+
+.button {
+  padding: 2px 10px;
+  border: none;
+  background-color: #00BCD4;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px;
+  position: relative;
+  top: 40px;
+  left: 90px;
+}
+
+.text-box {
+  float: right;
+  position: relative;
+  bottom: 240px;
+}
+
+textarea {
+  padding: 10px;
+  border: none;
+  resize: none;
+  width: 360px;
+  height: 183px;
+}
