@@ -15,42 +15,43 @@
   width: 100%;
 }
 
-.table-cell1 {
-  padding: 20px;
-  text-align: center;
-  display: table-cell;
-}
-
-.display-table .table-cell1:first-child {
-  width: 100px
-}
-
-.table-cell2 {
+.table-cell {
   margin: 0 auto;
   padding: 20px;
-  display: table-cell;
   text-align: center;
-
+  display: table-cell;
 }
 
-.display-table .table-cell1:last-child {
+
+.display-table2 .table-cell:last-child {
   width: 500px
 }
 
 .cell-pink {
-  padding: 20px;
   width: 100px;
   background-color: #FDC8B8;
 }
 
 .cell-purple {
-  display: table-cell;
-  padding: 20px;
-  width: 100%;
   background-color: #e0abd9;
 }
+
 .cell-blue {
-  display: table-cell;
+  background: #b6d8ed;
+  width: 100px;
+}
+
+.cell-yellow {
+  background: #e5d32e;
+}
+
+.cell-red {
+  background: #ec8f9a;
+}
+
+.cell-green {
+  background: #8fdcad;
+  width: 500px;
 }
 
 .display-table2 {

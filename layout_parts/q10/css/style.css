@@ -20,20 +20,20 @@
 .balloon:before {
   content: "";
   position: absolute;
-  bottom: -24px;
-  left: 5%;
-  border: 12px solid transparent;
-  border-top: 12px solid #FFF;
+  bottom: -32px;
+  left: 32px;
+  border: 16px solid transparent;
+  border-top: 16px solid #FFF;
   z-index: 2;
 }
 
 .balloon:after {
   content: "";
   position: absolute;
-  bottom: -32px;
-  left: 5%;
-  border: 14px solid transparent;
-  border-top: 14px solid #222;
+  bottom: -44px;
+  left: 27px;
+  border: 22px solid transparent;
+  border-top: 22px solid #222;
   z-index: 1;
 }
 

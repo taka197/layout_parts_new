@@ -7,7 +7,7 @@
 }
 /* 回答はここに書いてね */
 
-.content {
+.float-content {
   margin: 0 auto;
   padding: 20px;
   width: 500px;
@@ -15,7 +15,7 @@
 }
 
 .left {
-  margin 0;
+  margin-left: 50px;
   padding: 10px;
   width: 225px;
   font-size: 16px;
@@ -23,38 +23,29 @@
   background-color: white;
   box-sizing: border-box;
 }
-
-.right {
-  padding: 10px;
-  font-size: 16px;
-  width: 225px;
-  float: right;
-  box-sizing: border-box;
-  background-color: white;
+.left:first-child {
+  margin-left: 0;
 }
 
 .content-table {
   display: table;
   font-size: 16px;
+  margin-left: 50px;
 }
 
-.table-left {
+.table-cell {
   display: table-cell;
-  padding-right: 50px;
-  width: 225px;
+  padding-left: 50px;
   vertical-align: middle;
 }
 
-.table-right {
-  display: table-cell;
-  width: 205px;
-  vertical-align: middle;
+.table-cell:first-child {
+  padding-left: 0;
 }
 
-.inline-block-content {
+.inlineblock-content {
   margin: auto;
-  text-align: center;
-  padding: 20px;
+  padding: 15px;
   width: 500px;
   font-size: 16px;
   background-color: #ECF1F2;
@@ -79,8 +70,6 @@
   background-color: white;
 }
 
-
-
 .flex {
   padding: 10px;
   width: 205px;
@@ -99,42 +88,28 @@
   clear: both;
 }
 
-/*.inlineblock-margin-content {
-  margin: auto;
-  text-align: center;
-  padding: 20px;
-  width: 1000px;
-  height: 150px;
-  font-size: 16px;
-  background-color: #ECF1F2;
-  clear: both;*/
-
-  .margin-content {
-    margin: auto;
-    padding: 20px;
-    width: auto;
-    font-size: 16px;
-    background-color: #ECF1F2;
-  }
-
   .margin-left {
     display: inline-block;
     vertical-align: middle;
+    box-sizing: border-box;
+    width: 300px;
+    /*vertical-align: middle;
     padding: 10px;
-    width: 270px;
     font-size: 16px;
-    background-color: white;
-    margin-right: 20px;
+    background-color: white;*/
   }
 
   .margin-right {
     display: inline-block;
     vertical-align: middle;
-    width: 800px;
-    padding: 10px;
+    width: 100%;
+    margin-left: -400px;
+    padding-left: 450px;
+    box-sizing: border-box;
+    /* padding: 10px;
     font-size: 16px;
     background-color: white;
-    margin-left: 40px;
+    margin-left: 400px;
   }
 
 

@@ -2,31 +2,33 @@
 
 /* 回答はここに書いてね */
 .table-main {
-  margin auto;
-  font-size: 20px;
-}
-
-table {
   border-collapse: collapse;
   border-spacing: 0;
   border: solid #dedede 1px;
-  width: 100%
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  table-layout: fixed;
 }
 
-th {
+
+.table-main th {
   border: solid #dedede 1px;
   padding: 10px;
+  font-size: 18px;
+}
+.table-main tr {
+  border: solid #dedede 1px;
   color: white;
   background-color: #2244aa;
 }
 
-td {
+.table-main td {
   border: solid #dedede 1px;
   color: #222;
   text-align: center;
   background-color: #ecf1f2;
 }
-
 
 .table-main tr:nth-child(2n+1) td {
   background: #fff;

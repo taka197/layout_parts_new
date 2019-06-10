@@ -10,21 +10,6 @@
     position: relative;
 }
 
-.main img {
-    -moz-transition: -moz-transform 0.5s linear;
-    -webkit-transition: -webkit-transform 0.5s linear;
-    -o-transition: -o-transform 0.5s linear;
-    -ms-transition: -ms-transform 0.5s linear;
-    transition: transform 0.5s linear;
-}
-.main img:hover {
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
-}
-
 .text {
   font-size: 16px;
   position: absolute;
@@ -46,7 +31,7 @@
   transition-duration: 0.5s;
 }
 
-picture {
+.picture {
   transition-duration: 0.5s;
 }
 

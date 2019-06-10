@@ -1,19 +1,17 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content-box1 {
+
+.content-text-align {
   margin: auto;
-  display: block;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
   width: 70px;
   height: auto;
   background-color: #e6f2ff;
-
 }
 
-
-.content-box2 {
+.content-margin {
   margin: auto;
   display: block;
   text-align: center;
@@ -24,6 +22,10 @@
 }
 
 .content-table {
+  display: table;
+}
+
+.table-box  {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -33,10 +35,8 @@
   display: inline-block;
   padding: 10px;
   background-color: #FFF;
-  position:relative;
-  left: 120px;
-  top: 80px;
 }
+
 
 .content-flex {
   display: flex;
@@ -49,19 +49,25 @@
   background-color: #FFF;
 }
 
-.position1 {
+.position-content {
+  position: relative;
+}
+
+.position-left {
   width: 110px;
   height: 30px;
   background-color: #E6F2FF;
   line-height: 30px;
   text-align: center;
-  position: relative;
-  top: 85px;
+  position: absolute;
+  top:  0;
+  bottom:  0;
+  left:  0;
+  right:  0;
   margin: auto;
-
 }
 
-.position2 {
+.position-right {
     display: inline-block;
     padding: 10px;
     background-color: #E6F2FF;
