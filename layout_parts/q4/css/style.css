@@ -9,10 +9,15 @@
   background-color: #eff3f4;
 }
 
-.display-table1 {
+.display-table {
   display: table;
+  margin-bottom: 20px;
   border-collapse: collapse;
   width: 100%;
+}
+
+.display-table:last-child {
+  margin-bottom: 0;
 }
 
 .table-cell {
@@ -22,10 +27,6 @@
   display: table-cell;
 }
 
-
-.display-table2 .table-cell:last-child {
-  width: 500px
-}
 
 .cell-pink {
   width: 100px;
@@ -52,14 +53,6 @@
 .cell-green {
   background: #8fdcad;
   width: 500px;
-}
-
-.display-table2 {
-  margin-top: 20px;
-  display: table;
-  border-collapse: collapse;
-  width: 100%;
-
 }
 
 /* 回答はここに書いてね */

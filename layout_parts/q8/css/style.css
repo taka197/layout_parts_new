@@ -109,7 +109,6 @@ ul li {
   border-radius: 3px;
   width: 178px;
   height: 23px;
-
 }
 
 .gender-text {
@@ -139,8 +138,8 @@ ul li {
 
 .gender:checked + .gender-text::after {
   position: absolute;
-  top: 215%;
-  left: 4.5px;
+  top: 47.4px;
+  left: 4.23px;
   width: 8px;
   height: 8px;
   margin-top: -40px;
@@ -163,7 +162,7 @@ ul li {
 .select-arrow::after {
   display: block;
   position: relative;
-  bottom: 18px;
+  bottom: 19px;
   left: 160px;
   width: 8px;
   height: 8px;
@@ -207,7 +206,7 @@ ul li {
 }
 
 .checkbox-content:checked {
-  color: #009a9a;
+  color: #00BCD4;
 }
 
 .checkbox-content:checked + .checkbox-parts::after {
@@ -219,8 +218,8 @@ ul li {
   width: 7px;
   height: 14px;
   transform: rotate(40deg);
-  border-bottom: 3px solid #009a9a;
-  border-right: 3px solid #009a9a;
+  border-bottom: 3px solid #00BCD4;
+  border-right: 3px solid #00BCD4;
 }
 
 .checkbox {
@@ -240,6 +239,16 @@ ul li {
   left: 130px;
 }
 
+.button:active {
+  color: #00BCD4;
+  background-color: #fff;
+}
+
+.input:focus {
+  outline: 0;
+  box-shadow: 0 0 7px #00BCD4;
+}
+
 .text-box {
   float: right;
   position: relative;
@@ -253,4 +262,8 @@ textarea {
   resize: none;
   width: 360px;
   height: 183px;
+}
+textarea:focus {
+  outline: 0;
+  outline-color: #222;
 }
