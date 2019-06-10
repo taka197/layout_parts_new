@@ -8,7 +8,9 @@
   background-color: #ECF1F2;
 	font-weight: bold;
 	font-size: 30px;
+  position: relative;
 }
+
 
 .common-box {
 	width: 100px;
