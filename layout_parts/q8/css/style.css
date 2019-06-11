@@ -113,6 +113,10 @@
   margin-left: 25px;
 }
 
+.title-name, .title-gender, .title-from, .title-email, .title-number {
+  margin-bottom: 20px;
+}
+
 .common-title {
   display: inline-block;
 }
@@ -120,7 +124,6 @@
 .common-form {
   margin-left: 20px;
   display: inline-block;
-  padding-bottom: 20px;
 }
 
 .input-common {
