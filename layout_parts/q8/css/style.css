@@ -54,7 +54,24 @@
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12), 0 1px 4px rgba(0, 0, 0, .12);
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 .form-background {
   margin: 0 auto;
   width: 710px;
@@ -63,9 +80,8 @@
   background-color: #ECF1F2;
 }
 
-ul li {
+.main-form ul li {
   list-style-type: none;
-  margin-top: 2px;
 }
 
 .main-title {
@@ -83,25 +99,28 @@ ul li {
 }
 
 .main {
-  position: relative;
-  top: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  clear: both;
 }
 
-.form {
-  float: left;
-  margin-top: 5px;
+.form-left {
+  display: inline-block;
   margin-left: 30px;
 }
 
+.title-name, .title-gender, .title-from {
+  margin-left: 25px;
+}
+
 .common-title {
-  position: relative;
-  left: 30px;
+  display: inline-block;
 }
 
 .common-form {
-  position: relative;
-  bottom: 20px;
-  left: 90px;
+  margin-left: 20px;
+  display: inline-block;
+  padding-bottom: 20px;
 }
 
 .input-common {
@@ -111,11 +130,16 @@ ul li {
   height: 23px;
 }
 
+/*名前*/
+.asta {
+  color: red;
+}
+
+/*性別*/
 .gender-text {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
-
 }
 
 .gender {
@@ -148,6 +172,9 @@ ul li {
   content: '';
 }
 
+
+
+/*出身*/
 .select-box {
   border: none;
   border-radius: 3px;
@@ -156,14 +183,14 @@ ul li {
   height: 25px;
   padding: 0 3px;
   background-color: white;
-  position: relative;
+  margin-left: 5px;
 }
 
 .select-arrow::after {
   display: block;
   position: relative;
   bottom: 19px;
-  left: 160px;
+  left: 165px;
   width: 8px;
   height: 8px;
   border-right: 2px solid #E5E5E5;
@@ -173,14 +200,10 @@ ul li {
   pointer-events: none;
 }
 
-.asta {
-  color: red;
-}
 
-.checkbox-label {
 
-}
 
+/*チェックボックス*/
 .checkbox-content {
   display: none;
   padding: 5px 5px;
@@ -188,7 +211,6 @@ ul li {
 
 .checkbox-parts {
   padding-left: 20px;
-  margin-right: 20px;
   position:relative;
 }
 
@@ -221,23 +243,20 @@ ul li {
   border-right: 3px solid #00BCD4;
 }
 
-.check-box {
-  float: right;
-  padding-top: 20px;
-  padding-left: 65px;
-}
 
+.checkbox-main {
+  float: right;
+}
+/*送信ボタン*/
 .button {
-  margin-left: 150px;
+  float: right;
+  margin-top: 20px;
   padding: 2px 10px;
   border: none;
   background-color: #00BCD4;
   font-size: 16px;
   color: #fff;
   border-radius: 3px;
-  /*position: relative;
-  top: 60px;
-  left: 130px;*/
 }
 
 .button:active {
@@ -255,10 +274,12 @@ ul li {
   box-shadow: 0 0 7px #00BCD4;
 }
 
+
+
+
+/*textbox*/
 .text-box {
   float: right;
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 textarea {
@@ -268,6 +289,7 @@ textarea {
   width: 360px;
   height: 183px;
 }
+
 textarea:focus {
   outline: 0;
   outline-color: #222;

@@ -104,68 +104,64 @@
             <div class="form-background">
             <h1 class="main-title">Form Exercise</h1><div class="border"></div>
               <div class="main">
-                <div class="form">
                   <form action="#" method=post>
-                    <ul>
-                      <li>
-                        <p class="common-title">名前<span class="asta">*</span></p>
-                        <div class="common-form">
-                        <input class="input-common input" type="text" name="name" required>
-                        </div>
-                      </li>
-                      <li>
-                        <p class="common-title">性別</p>
-                        <div class="common-form">
-                          <div class="radio">
-                            <label><input type="radio" name="radio" class="gender" value="male"><span class="gender-text">男性</span></label>
-                            <label><input type="radio" name="radio" class="gender" value="femele"><span class="gender-text">女性</span></label>
+                    <div class="form-left">
+                      <ul class="main-form">
+                        <li class="title-name">
+                          <p class="common-title name">名前<span class="asta">*</span></p>
+                          <div class="common-form">
+                            <input class="input-common input" type="text" name="name" required>
                           </div>
-                        </div>
-                      </li>
-                      <li>
-                        <p class="common-title">出身</p>
-                        <div class="common-form">
-                          <div class="select-arrow">
-                            <select name="from" class="select-box input">
-                              <option>東京</option>
-                              <option>埼玉</option>
-                              <option>神奈川</option>
-                              <option>千葉</option>
-                            </select>
+                        </li>
+                        <li class="title-gender">
+                          <p class="common-title">性別</p>
+                          <div class="common-form">
+                            <div class="radio">
+                              <label><input type="radio" name="radio" class="gender" value="male"><span class="gender-text">男性</span></label>
+                              <label><input type="radio" name="radio" class="gender" value="femele"><span class="gender-text">女性</span></label>
+                            </div>
                           </div>
-                        </div>
-                      </li>
-
-                      <li class="email">
-                        <p>Eメール<span class="asta">*</span><p>
+                        </li>
+                        <li class="title-from">
+                          <p class="common-title">出身</p>
+                          <div class="common-form">
+                              <select name="from" class="select-box select-arrow input">
+                                <option>東京</option>
+                                <option>埼玉</option>
+                                <option>神奈川</option>
+                                <option>千葉</option>
+                              </select>
+                          </div>
+                        </li>
+                        <li>
+                          <p class="common-title">Eメール<span class="asta">*</span></p>
                           <div class="common-form">
                             <input class="input-common input" type="email" name="email" placeholder="ex) hoge@gmail.com" required>
                           </div>
-                      </li>
-                      <li class="phone-number">
-                        <p>電話番号<p>
-                        <div class="common-form">
-                         <input class="input-common input" type="text" name="phonenumber" placeholder="ex) 08012345678">
-                        </div>
-                      </li>
-
-                      <li class="check-box">
-                      <div class="common-form">
-                      <label><input type="checkbox" class="checkbox-content"><span class="checkbox-parts">20歳以上です</span></label>
-                      </div>
-                        <input class="button" type="submit" value="送信" class="submit">
-                      </div>
-                      </li>
-                    </ul>
+                        </li>
+                        <li>
+                          <p class="common-title">電話番号</p>
+                          <div class="common-form">
+                            <input class="input-common input" type="text" name="phonenumber" placeholder="ex) 08012345678">
+                          </div>
+                        </li>
+                        <li>
+                          <div class="common-form checkbox-main">
+                            <label><input type="checkbox" class="checkbox-content"><span class="checkbox-parts">20歳以上です</span></label>
+                            <div class="button-main">
+                              <input class="button" type="submit" value="送信" class="submit">
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="text-box ">
+                      <textarea type="text" class="input" placeholder="何かあれば入力してください"></textarea>
+                    </div>
                   </form>
-                </div>
-
-              <div class="text-box ">
-                <textarea type="text" class="input" placeholder="何かあれば入力してください"></textarea>
               </div>
             </div>
           </div>
-        </div>
           <!-- 回答はここに書いてね -->
       </div>
     </div>
